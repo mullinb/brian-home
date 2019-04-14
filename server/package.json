@@ -1,0 +1,28 @@
+{
+  "name": "brian-home-server",
+  "version": "1.0.0",
+  "description": "Server for Brian Mullin's homepage",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node dist/index.js",
+    "test": "jest"
+  },
+  "author": "Brian Mullin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "@types/cors": "^2.8.4",
+    "@types/node": "^11.13.4",
+    "nodemon": "^1.18.11",
+    "prettier": "^1.17.0",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  }
+}
